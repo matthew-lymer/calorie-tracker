@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calorie Tracker</title>
+        <meta name="description" content="Calorie Tracker Webp-App">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+        <meta content="IE=9" http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css?v=1.01" />
+    </head>
+    <body>
+        <div class="window">
+            <div class="header">
+
+            </div>
+            <div class="body">
+                <div id="calorie-total">
+                    <span class="total">0</span>
+                    <span class="unit">kCal</span>
+                </div>
+                <div id="content">
+                    <div class="overflow-box">
+                        <div class="list-items">
+                            <div class="list-item">
+                                <a class="close button left">
+                                    <img src="images/close-white.svg" alt="Delete" width="30" height="30" />
+                                </a>
+                                <input class="food description left" type="text" name="description" value="" placeholder="Food description" />
+                                <input class="food calories right" type="number" name="calories" value="" placeholder="kCal" />
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="empty-list-item on">press the <strong>+</strong> button to add calories</div>
+                        <div class="list-item-buffer"></div>
+                    </div>
+                    <div class="add-list-item">+</div>
+                </div>
+            </div>
+            <div class="footer tabs">
+                <div id="tab1" class="tab">
+                    <img src="images/tab-icon-01.svg" alt="Reset" width="35" height="35" />
+                    <div class="title">reset</div>
+                </div>
+                <div id="tab2" class="tab on">
+                    <img src="images/tab-icon-02.svg" alt="Add" width="35" height="35" />
+                    <div class="title">calories</div>
+                </div>
+                <div id="tab3" class="tab">
+                    <img src="images/tab-icon-03.svg" alt="Calculator" width="35" height="35" />
+                    <div class="title">calculator</div>
+                </div>
+            </div>
+        </div>
+		<script type="text/javascript" src="js/jquery.min.js?v=1.01"></script>
+        <script type="text/javascript" src="js/scripts.js?v=1.01"></script>
+    </body>
+</html>

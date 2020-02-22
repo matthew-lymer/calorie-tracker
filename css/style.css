@@ -203,19 +203,19 @@
 
     }
 
-    .window .body #content .list-items .list-item:nth-child(4n-3){
+    .window .body #content .list-items .list-item:nth-child(4n){
         background: linear-gradient(135deg, #f85aca, #f9c982);
     }
 
-    .window .body #content .list-items .list-item:nth-child(4n-2){
+    .window .body #content .list-items .list-item:nth-child(4n-1){
         background: linear-gradient(135deg, #4faf28, #ecdc10)
     }
 
-    .window .body #content .list-items .list-item:nth-child(4n-1){
+    .window .body #content .list-items .list-item:nth-child(4n-2){
         background: linear-gradient(135deg, #f40652, #ce54ff);
     }
 
-    .window .body #content .list-items .list-item:nth-child(4n){
+    .window .body #content .list-items .list-item:nth-child(4n-3){
         background: linear-gradient(135deg, #489bee, #07e7e7);
     }
 

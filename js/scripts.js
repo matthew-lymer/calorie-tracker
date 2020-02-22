@@ -33,7 +33,7 @@
                                         '        <img src="images/close-white.svg" alt="Delete" width="30" height="30" />' +
                                         '    </a>' +
                                         '    <input class="food description left" type="text" name="description" value="" placeholder="Food description" />' +
-                                        '    <input class="food calories right" type="text" name="calories" value="" placeholder="kCal" />' +
+                                        '    <input class="food calories right" type="tel" name="calories" value="" placeholder="kCal" />' +
                                         '    <div class="clear"></div>' +
                                         '</div>';
 

@@ -1,0 +1,16 @@
+{
+    "name": "Calorie Tracker",
+    "short_name": "Calorie Tracker",
+    "icons": [
+      {
+        "src": "images/icon-180x180.png",
+        "type": "image/png",
+        "sizes": "180x180"
+      }
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#07e7e7",
+    "theme_color": "#07e7e7",
+    "orientation": "landscape"
+}

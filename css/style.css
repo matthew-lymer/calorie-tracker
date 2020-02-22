@@ -306,3 +306,25 @@
     .window .footer.tabs #tab3.tab{
         left: 66.666%;
     }
+
+    .window .body #update,
+    .window .body #otherUpdate{
+        display: none;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        z-index: 99;
+        background: #222;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        box-sizing: border-box;
+        top: 0;
+        height: 42px;
+        background: rgb(12, 55, 57)
+    }
+
+    .window .body #update.on,
+    .window .body #otherUpdate.on{
+        display: block;
+    }
